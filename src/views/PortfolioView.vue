@@ -114,7 +114,7 @@ export default {
         {
           id: 1,
           name: 'Major Finder',
-          imageUrl: 'Major Finder',
+          imageUrl: 'Major-Finder',
           status: `MajorFinder is a smart web application designed to help Informatics students determine their most suitable academic major and minor based on their personal interests, academic performance, and career goals. Built using Streamlit, the system applies Fuzzy Logic and Analytical Hierarchy Process (AHP) to deliver accurate, data-driven recommendations. The application features an intuitive UI for student input, a Fuzzy & AHP-based scoring system, and provides visualized results along with downloadable reports.`,
           tech: 'Python, Streamlit, Fuzzy Logic, AHP',
           github: 'https://github.com/StevanusFelixiano/ProyekSoftcom',
