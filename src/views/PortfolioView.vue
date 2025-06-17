@@ -350,7 +350,7 @@ export default {
     getImageUrl(imageUrl) {
       const supportedFormats = ['jpg', 'png', 'gif'];
       for (let format of supportedFormats) {
-        let fullPath = `/portofolio/img/${imageUrl}.${format}`;
+        let fullPath = `/img/${imageUrl}.${format}`;
         if (this.imageExists(fullPath)) {
           return fullPath;
         }
