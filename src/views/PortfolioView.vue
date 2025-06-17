@@ -11,10 +11,10 @@
           </div>
         </transition>
         <div class="tabs flex justify-center gap-4 mb-8">
-          <button @click="activeTab = 1" :class="{ 'active-tab': activeTab === 1 }">
+          <button @click="switchTabWithLoading(1)" :class="{ 'active-tab': activeTab === 1 }">
             Projects
           </button>
-          <button @click="activeTab = 2" :class="{ 'active-tab': activeTab === 2 }">
+          <button @click="switchTabWithLoading(2)" :class="{ 'active-tab': activeTab === 2 }">
             Certificates
           </button>
         </div>
@@ -97,8 +97,8 @@
             </div>
           </div>
         </div>
-        <div v-if="isLoading" class="flex justify-center items-center h-full">
-          <div class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
+        <div v-if="isLoading" class=" loading-overlay flex justify-center items-center h-full">
+          <div class="spinner ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
         </div>
       </section>
     </article>
@@ -372,6 +372,13 @@ export default {
       http.open('HEAD', url, false);
       http.send();
       return http.status !== 404;
+    },
+    switchTabWithLoading(tabNumber) {
+      this.isLoading = true;
+      setTimeout(() => {
+        this.activeTab = tabNumber;
+        this.isLoading = false;
+      }, 500);
     }
   }
 };
@@ -489,5 +496,31 @@ svg:hover {
     color: #ffffff;
     background: #282828;
   }
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.spinner {
+  border: 0.25rem solid #f3f3f3;
+  border-top: 0.25rem solid #3498db;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 </style>
