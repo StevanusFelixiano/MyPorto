@@ -80,7 +80,7 @@ export default {
     },
     downloadResume() {
       const link = document.createElement('a');
-      link.href = '/portofolio/resume/Resume - Stevanus Felixiano.pdf';
+      link.href = '/resume/Resume - Stevanus Felixiano.pdf';
       link.setAttribute('download', 'Resume - Stevanus Felixiano.pdf');
       document.body.appendChild(link);
       link.click();
