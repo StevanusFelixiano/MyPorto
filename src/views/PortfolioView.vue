@@ -123,7 +123,7 @@ export default {
         {
           id: 2,
           name: 'NoteBoost',
-          imageUrl: 'NoteBoost',
+          imageUrl: 'Noteboost',
           status: 'NoteBoost is an online platform designed to help students take and improve their notes through a smart feature that adapts content based on their grade level and subject matter. Focused on supporting learners from elementary to high school, NoteBoost aims to enhance study effectiveness and broaden academic insight. This project is part of our effort to support the United Nations’ Sustainable Development Goal 4: ensuring inclusive and equitable quality education for all. In this project, I worked as a Backend Developer, responsible for building APIs, implementing authentication, and integrating AI capabilities using the Gemini API. I also handled the integration between the frontend and backend, ensuring smooth communication and functionality across the entire application.',
           tech: 'React,js, Express.js, Firebase, Google Cloud Platform',
           github: 'https://github.com/raythrp/NoteBoost-serve',
@@ -250,7 +250,7 @@ export default {
           id: 11,
           name: 'Belajar Analisis Data dengan Python',
           date: 'Issued Oct 2024',
-          imageUrl: 'Belajar Analisis Data dengan Python',
+          imageUrl: 'Belajar Analisis Data Dengan Python',
           link: 'https://www.dicoding.com/certificates/GRX54L5V2P0M',
         },
         {
