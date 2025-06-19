@@ -160,7 +160,7 @@ export default {
           id: 6,
           name: 'Fruit & Vegetable Detection With CNN',
           imageUrl: 'Fruit Detection',
-          status: 'This project aims to perform sentiment analysis on texts in Indonesian using the BERT model. First, a BERT model for text sequence classification is prepared by tokenization using an Indonesian tokenizer and appropriate configuration. The model is then trained using the pre-processed SMSA Doc Sentiment Prose dataset. After training the model, it was evaluated using validation and testing datasets.The results show that the trained model is able to achieve good accuracy in classifying Fruit & Vegetables',
+          status: 'This project aims to classify images of fruits and vegetables using a Convolutional Neural Network (CNN) model. First, the image data is pre-processed through resizing, normalization, and augmentation to improve model performance. The CNN model is then trained on the prepared dataset consisting of various fruit and vegetable categories. After training, the model is evaluated using validation and testing datasets, showing good accuracy in correctly classifying different types of fruits and vegetables.',
           tech: 'Python, Streamlit',
           github: 'https://github.com/WrathSnail/Fruit-and-Vegetable-recognition',
           demo: 'null'
