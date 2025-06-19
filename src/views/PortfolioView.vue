@@ -158,7 +158,7 @@ export default {
         },
         {
           id: 6,
-          name: 'Fruit & Vegetable Detection With CNN',
+          name: 'Fruit & Vegetable Classification With CNN',
           imageUrl: 'Fruit Detection',
           status: 'This project aims to classify images of fruits and vegetables using a Convolutional Neural Network (CNN) model. First, the image data is pre-processed through resizing, normalization, and augmentation to improve model performance. The CNN model is then trained on the prepared dataset consisting of various fruit and vegetable categories. After training, the model is evaluated using validation and testing datasets, showing good accuracy in correctly classifying different types of fruits and vegetables.',
           tech: 'Python, Streamlit',
