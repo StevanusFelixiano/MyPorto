@@ -113,6 +113,15 @@ export default {
       items: [
         {
           id: 1,
+          name: 'Isle Of Balance',
+          imageUrl: 'Isle Of Balance',
+          status: `Isle of Balance is an educational Virtual Reality (VR) game aimed at teaching ecological balance and environmental awareness, particularly for children and nature enthusiasts. Developed using Unity and C#, the game leverages immersive interactions through the XR Interaction Toolkit, enabling players to engage with responsive environments and complete nature-based challenges. The project supports SDG 15 – Life on Land, by promoting biodiversity education and sustainability values through interactive gameplay.`,
+          tech: 'Unity, C#, XR Interaction Toolkit, Virtual Reality (VR)',
+          github: 'https://github.com/StevanusFelixiano/IsleOfBalance',
+          demo: 'https://drive.google.com/drive/folders/15YOgNm3FMxE_rCxGKWo3qlrtKeSfUZBb?usp=sharing'
+        },
+        {
+          id: 2,
           name: 'Major Finder',
           imageUrl: 'Major-Finder',
           status: `MajorFinder is a smart web application designed to help Informatics students determine their most suitable academic major and minor based on their personal interests, academic performance, and career goals. Built using Streamlit, the system applies Fuzzy Logic and Analytical Hierarchy Process (AHP) to deliver accurate, data-driven recommendations. The application features an intuitive UI for student input, a Fuzzy & AHP-based scoring system, and provides visualized results along with downloadable reports.`,
@@ -121,7 +130,7 @@ export default {
           demo: 'https://majorfinder.streamlit.app/'
         },
         {
-          id: 2,
+          id: 3,
           name: 'NoteBoost',
           imageUrl: 'Noteboost',
           status: 'NoteBoost is an online platform designed to help students take and improve their notes through a smart feature that adapts content based on their grade level and subject matter. Focused on supporting learners from elementary to high school, NoteBoost aims to enhance study effectiveness and broaden academic insight. This project is part of our effort to support the United Nations’ Sustainable Development Goal 4: ensuring inclusive and equitable quality education for all. In this project, I worked as a Backend Developer, responsible for building APIs, implementing authentication, and integrating AI capabilities using the Gemini API. I also handled the integration between the frontend and backend, ensuring smooth communication and functionality across the entire application.',
@@ -130,7 +139,7 @@ export default {
           demo: 'https://www.noteboost.site/'
         },
         {
-          id: 3,
+          id: 4,
           name: 'FishGuard',
           imageUrl: 'FishGuard',
           status: 'FishGuard is a Capstone Project of the Bangkit Academy 2024 Batch 2, aimed at supporting marine biodiversity conservation through the use of machine learning and computer vision. The project enables users to identify protected fish species via a mobile app by uploading fish photos for accurate classification. As a Machine Learning Engineer, I was responsible for developing detection and classification models, building RESTful APIs for data integration, and collaborating with the app development team to ensure seamless user experience and model deployment.',
@@ -139,7 +148,7 @@ export default {
           demo: 'https://drive.google.com/drive/folders/1v361Pu2Y7y_2jpWg-_COtmBCovBKV7Qh?usp=drive_link'
         },
         {
-          id: 4,
+          id: 5,
           name: 'Trash Bin Robot with Computer Vision',
           imageUrl: 'Trash Bin Robot',
           status: 'As the final project for the Robotics Practicum course, My team and I developed a smart trash bin robot powered by Computer Vision using Mediapipe v5. The robot recognizes hand gestures through pose estimation and responds when a user raises their hand by autonomously approaching them. It follows the user’s movements, opens the lid automatically for waste disposal, and closes it afterward—fully contactless and intuitive.',
@@ -148,7 +157,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 5,
+          id: 6,
           name: 'Clustering of Aerial Images',
           imageUrl: 'Cluster',
           status: 'This project utilizes K-Means clustering to segment aerial imagery captured by drones into visually distinct land cover types. Implemented using Streamlit for interactivity, the application allows users to upload images and view the segmentation results in real time. Each cluster represents a unique land characteristic on extracted color and texture features.',
@@ -157,7 +166,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 6,
+          id: 7,
           name: 'Fruit & Vegetable Classification With CNN',
           imageUrl: 'Fruit Detection',
           status: 'This project aims to classify images of fruits and vegetables using a Convolutional Neural Network (CNN) model. First, the image data is pre-processed through resizing, normalization, and augmentation to improve model performance. The CNN model is then trained on the prepared dataset consisting of various fruit and vegetable categories. After training, the model is evaluated using validation and testing datasets, showing good accuracy in correctly classifying different types of fruits and vegetables.',
@@ -166,7 +175,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 7,
+          id: 8,
           name: 'The Weeknd Website',
           imageUrl: 'TheWeeknd',
           status: 'This project focused on developing a dynamic and interactive website dedicated to The Weeknd, leveraging CodeIgniter 4 as the framework. The website highlights The Weeknd’s music, albums, tour schedules, and latest news, featuring a user-friendly design that enhances visitor engagement. A modern, responsive layout was crafted using HTML and CSS to ensure seamless performance across different devices and screen sizes. XAMPP was utilized as the local development environment, while PHP powered the server-side functionalities, enabling smooth integration with MySQL databases for efficient storage and management of user data, content, and multimedia resources.',
