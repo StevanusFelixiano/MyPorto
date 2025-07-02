@@ -338,6 +338,13 @@ export default {
           date: 'Issued Sep 2024',
           imageUrl: 'Using Python to Interact with the Operating System',
           link: 'https://coursera.org/share/fd4429c7f55660b0459dbfe932bc4df8',
+        },
+        {
+          id: 23,
+          name: 'TOEFL ITP',
+          date: 'Issued Oct 2021',
+          imageUrl: 'Sertifikat TOEFL',
+          link: 'https://drive.google.com/file/d/19j7SIL7KJoH06TcsbrXR9oqdNztDVLdH/view?usp=sharing',
         }
       ],
       isLoading: false
