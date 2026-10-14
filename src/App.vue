@@ -6,8 +6,8 @@
           <span class="self-center text-lg text-[#00f9ff] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">Stevanus Felixiano</span>
         </button>
         <div class="social-icons flex md:order-2 items-center space-x-6 fadein-bot">
-          <a href="https://github.com/StevanusFelixiano">
-            <img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github">
+          <a href="https://github.com/StevanusFelixiano" target="_blank" rel="noopener" aria-label="GitHub">
+            <img class="w-6 md:w-8 h-6 md:h-8" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub">
           </a>
           <a href="https://www.linkedin.com/in/stevanus-felixiano" target="_blank" rel="noopener" aria-label="LinkedIn">
             <img class="w-6 md:w-8 h-6 md:h-8" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn">

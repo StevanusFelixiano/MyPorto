@@ -72,7 +72,7 @@ export default {
             'Categorize the potential of Himatif members by grouping them according to their scientific fields, organizational involvement, and talent interests.',
             'Supported the development of evaluation materials to measure the effectiveness of the cadre programs and provided feedback for further improvement.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1EGxDhiIWPSTsfIP8Mk2QfhT-SiGddz3H/view?usp=sharing'
         },
         {
@@ -86,7 +86,7 @@ export default {
             'Liaised with external stakeholders, including judges, mentors, and professional data practitioners, to secure their involvement in the competition, establish competition standards, and enrich the participant experience.',
             'Successfully executed the Data Analysis Competition with a total of 171 participants from diverse academic backgrounds, contributing to the overall success and visibility of the Informatics Festival.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1nRjhHJ4CJEiKnfiteIyJzqRiN9CU1eWV/view?usp=sharing'
         },
         {
@@ -100,7 +100,7 @@ export default {
             'Maintained overall order during the event by supervising venue conditions, monitoring participant flow, and promptly addressing any accommodation or logistic-related issues.',
             'Collaborated with all other divisions to ensure seamless communication and execution of event plans.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1FIPxTwtbcgPd2uh4YpE-xDKEcHY3GjHA/view?usp=sharing'
         },
         {
@@ -114,7 +114,7 @@ export default {
             'Utilized various media platforms such as social media, messaging apps, and official channels to promote the event, increasing awareness and engagement among potential participants.',
             'Collaborated with other divisions to synchronize promotional efforts with event timelines, ensuring consistency in messaging and branding across all communication mediums.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1XJZEkg9GkS9RHeY733wGTDg27hT4YgZT/view?usp=sharing'
         },
         {
@@ -128,7 +128,7 @@ export default {
             'Conducted consistent follow-ups with sponsors and exhibitors both during and after the event to ensure satisfaction, collect valuable feedback, and foster long-term relationships for future events or collaborations.',
             'Assisted in coordinating sponsorship agreements and ensuring that partner expectations were met, including brand exposure, booth arrangements, and promotional materials during the event.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/110NoVYy22Nq2dyNxOwsb7_A7ZR0AKcaw/view?usp=sharing'
         },
         {
@@ -142,7 +142,7 @@ export default {
             'Coordinated and supervised venue preparation prior to event commencement, including the arrangement of seating, stage setup, signage, and technical equipment, to ensure smooth execution and readiness.',
             'Collaborated closely with all other divisions to synchronize setup schedules and resolve any on-site issues swiftly and effectively.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1MILRGypGQNWZxsS4zCTts8zAA_OgUruD/view?usp=sharing'
         },
         {
@@ -156,7 +156,7 @@ export default {
             'Coordinated and supervised venue setup and preparation processes, overseeing seating arrangements, stage construction, booth installations, and technical equipment placement to ensure all aspects were ready well before the event started.',
             'Collaborated proactively with all other divisions to align venue readiness with overall event timelines and resolve unexpected challenges on-site efficiently.'
           ],
-          image: 'https://himatif.fmipa.unpad.ac.id/wp-content/uploads/2014/04/himatif.png',
+          image: '/img/himatif.png',
           certificateLink: 'https://drive.google.com/file/d/1EKS-v4-V1Gqomd6W1a4e_oI5FD1EjIAe/view?usp=sharing'
         },
       ],
