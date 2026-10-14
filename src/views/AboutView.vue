@@ -44,6 +44,21 @@ export default {
           name: 'PHP',
           imageUrl: 'https://www.php.net/images/logos/new-php-logo.svg',
         },
+        {
+          id: 9,
+          name: 'Swift',
+          imageUrl: 'https://developer.apple.com/assets/elements/icons/swift/swift-96x96_2x.png',
+        },
+        {
+          id: 10,
+          name: 'SwiftUI',
+          imageUrl: 'https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png',
+        },
+        {
+          id: 11,
+          name: 'TensorFlow',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg',
+        },
 
       ],
       tools: [
@@ -95,6 +110,12 @@ export default {
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/768px-Visual_Studio_Icon_2022.svg.png',
           status: 'IDE'
         },
+        {
+          id: 9,
+          name: 'Xcode',
+          imageUrl: 'https://developer.apple.com/assets/elements/icons/xcode/xcode-96x96_2x.png',
+          status: 'IDE'
+        },
       ]
     };
   }
@@ -121,9 +142,9 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Stevanus Felixiano. I am a technology enthusiast currently pursuing a bachelor's degree in Computer Science at Padjadjaran University. I'm an energetic and curious individual who enjoys exploring new ideas and solving challenging problems, particularly in the areas of Backend Development and Artificial Intelligence.
-Skilled in Python and spreadsheets for data processing and analysis, enabling me to extract meaningful insights to support data-driven decision making. On the backend side, I have experience in building RESTful APIs, integrating cloud databases such as Firestore, and developing scalable, maintainable backend systems.
-Dedicated to continuous learning and eager to stay updated with the latest trends and technologies in backend development and data analysis. Committed to leveraging backend systems and data-driven insights to solve real-world problems.
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Stevanus Felixiano, a Computer Science graduate from Padjadjaran University. I'm an energetic and curious individual who enjoys exploring new ideas and solving challenging problems, particularly in the areas of iOS Development and Artificial Intelligence.
+I build native iOS apps with Swift and SwiftUI in Xcode, focusing on clean, intuitive user experiences. I'm also skilled in Python, TensorFlow, and machine learning, from data processing and analysis to building computer vision models, and enjoy bringing intelligent features into mobile apps.
+Dedicated to continuous learning and eager to stay updated with the latest trends in iOS development and AI. Committed to building technology that solves real-world problems.
           </p>
         </div>
 
