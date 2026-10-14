@@ -6,53 +6,53 @@ export default {
       tech: [
         {
           id: 1,
-          name: 'Python',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=512',
-        },
-        {
-          id: 2,
-          name: 'Machine Learning',
-          imageUrl: 'https://cdn.iconscout.com/icon/premium/png-512-thumb/computational-intelligence-2040740-1721091.png?f=webp&w=512',
-        },
-        {
-          id: 3,
-          name: 'C++',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/c-plusplus-1-226082.png',
-        },
-        {
-          id: 4,
-          name: 'JavaScript',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png?f=webp&w=512',
-        },
-        {
-          id: 5,
-          name: 'C#',
-          imageUrl: 'https://www.freeiconspng.com/uploads/c-logo-icon-18.png',
-        },
-        {
-          id: 6,
-          name: 'HTML',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/html5-40-1175193.png',
-        },
-        {
-          id: 7,
-          name: 'CSS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/css3-11-1175239.png',
-        },
-        {
-          id: 8,
-          name: 'PHP',
-          imageUrl: 'https://www.php.net/images/logos/new-php-logo.svg',
-        },
-        {
-          id: 9,
           name: 'Swift',
           imageUrl: 'https://developer.apple.com/assets/elements/icons/swift/swift-96x96_2x.png',
         },
         {
-          id: 10,
+          id: 2,
           name: 'SwiftUI',
           imageUrl: 'https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png',
+        },
+        {
+          id: 3,
+          name: 'Python',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-python-2-226051.png?f=webp&w=512',
+        },
+        {
+          id: 4,
+          name: 'Machine Learning',
+          imageUrl: 'https://cdn.iconscout.com/icon/premium/png-512-thumb/computational-intelligence-2040740-1721091.png?f=webp&w=512',
+        },
+        {
+          id: 5,
+          name: 'C++',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/c-plusplus-1-226082.png',
+        },
+        {
+          id: 6,
+          name: 'JavaScript',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png?f=webp&w=512',
+        },
+        {
+          id: 7,
+          name: 'C#',
+          imageUrl: 'https://www.freeiconspng.com/uploads/c-logo-icon-18.png',
+        },
+        {
+          id: 8,
+          name: 'HTML',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/html5-40-1175193.png',
+        },
+        {
+          id: 9,
+          name: 'CSS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/css3-11-1175239.png',
+        },
+        {
+          id: 10,
+          name: 'PHP',
+          imageUrl: 'https://www.php.net/images/logos/new-php-logo.svg',
         },
         {
           id: 11,
@@ -64,56 +64,56 @@ export default {
       tools: [
         {
           id: 1,
+          name: 'Xcode',
+          imageUrl: '/img/xcode.png',
+          status: 'IDE'
+        },
+        {
+          id: 2,
           name: 'Git',
           imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
           status: 'Version Control'
         },
         {
-          id: 2,
+          id: 3,
           name: 'GitHub',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
           status: 'Git Hosting'
         },
         {
-          id: 3,
+          id: 4,
           name: 'pip',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1822/1822899.png',
           status: 'Package Manager'
         },
         {
-          id: 4,
+          id: 5,
           name: 'Jupyter Notebook',
           imageUrl: 'https://raw.githubusercontent.com/github/explore/a4691f04ff219c1c2aa02fc61fda41aa43f1459a/topics/jupyter-notebook/jupyter-notebook.png',
           status: 'IDE'
         },
         {
-          id: 5,
+          id: 6,
           name: 'VS Code',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/visual-studio-code-1868941-1583105.png',
           status: 'IDE'
         },
         {
-          id: 6,
+          id: 7,
           name: 'Colab',
           imageUrl: 'https://avatars.githubusercontent.com/u/38081706?v=4',
           status: 'IDE'
         },
         {
-          id: 7,
+          id: 8,
           name: 'Spreadsheets',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/logo-120-116259.png?f=webp&w=512',
           status: 'Google Sheets/Excel'
         },
         {
-          id: 8,
-          name: 'Visual Studio 2022',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/768px-Visual_Studio_Icon_2022.svg.png',
-          status: 'IDE'
-        },
-        {
           id: 9,
-          name: 'Xcode',
-          imageUrl: 'https://developer.apple.com/assets/elements/icons/xcode/xcode-96x96_2x.png',
+          name: 'Visual Studio 2022',
+          imageUrl: '/img/visual-studio.svg',
           status: 'IDE'
         },
       ]
