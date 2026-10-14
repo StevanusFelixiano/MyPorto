@@ -54,9 +54,10 @@ export default {
           desc: [
             'Selected as one of 220 participants from more than 13,000 applicants to join Apple Developer Academy @ BINUS – Bali, Cohort 2026.',
             'Joined one of only two International Apple Developer Academies in the world, collaborating with a globally diverse cohort of learners from various backgrounds.',
-            'Developed innovative app-based solutions within the Apple ecosystem through hands-on learning, design thinking, coding, and cross-functional team collaboration.'
+            'Developed innovative app-based solutions within the Apple ecosystem through hands-on learning, design thinking, coding, and cross-functional team collaboration.',
+            'Built native iOS apps with Swift, SwiftUI, and Xcode, applying Apple\'s Human Interface Guidelines to create clean, intuitive, and accessible user experiences.'
           ],
-          image: '/img/apple-developer-academy.svg',
+          image: '/img/apple-developer-academy.jpg',
           certificateLink: 'https://drive.google.com/drive/folders/1trbN8zbyKeC3rMbRWC1K_z4UgQYp483w?usp=sharing'
         },
         {
@@ -67,7 +68,8 @@ export default {
           desc: [
             'Developed an internal chatbot using n8n workflows to help operational teams navigate accident-related cases and policy references based on company knowledge sources.',
             'Implemented an adaptive LiDAR scanning system on Raspberry Pi, utilizing vehicle speed to regulate sensor rotation and generate panoramic visual outputs for container damage assessment.',
-            'Contributed to end-to-end AI and IoT solution delivery, from system planning to deployment and continuous monitoring, improving safety control, process transparency, and operational automation in logistics and port activities.'
+            'Contributed to end-to-end AI and IoT solution delivery, from system planning to deployment and continuous monitoring, improving safety control, process transparency, and operational automation in logistics and port activities.',
+            'Collaborated with operational and IT teams to gather requirements, test prototypes on site, and iterate on solutions based on user feedback.'
           ],
           image: '/img/spil.png',
           certificateLink: 'https://drive.google.com/drive/folders/1XgxrplHcT1Wpvpb5CGmSXDGTByYD1Hnx?usp=sharing'
