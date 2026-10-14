@@ -18,13 +18,13 @@ const routes = [
     path: '/portfolio',
     name: 'portfolio',
     component: () => import('../views/PortfolioView.vue'),
-    meta: { title: 'Portfolio' }
+    meta: { title: 'Projects' }
   },
   {
     path: '/blog',
     name: 'blog',
     component: () => import('../views/BlogView.vue'),
-    meta: { title: 'Blog' }
+    meta: { title: 'Portfolio' }
   },
   // {
   //   path: '/read/:slug/:id',
