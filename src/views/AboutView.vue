@@ -26,38 +26,38 @@ export default {
         },
         {
           id: 5,
+          name: 'TensorFlow',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg',
+        },
+        {
+          id: 6,
           name: 'C++',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/c-plusplus-1-226082.png',
         },
         {
-          id: 6,
+          id: 7,
           name: 'JavaScript',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png?f=webp&w=512',
         },
         {
-          id: 7,
+          id: 8,
           name: 'C#',
           imageUrl: 'https://www.freeiconspng.com/uploads/c-logo-icon-18.png',
         },
         {
-          id: 8,
+          id: 9,
           name: 'HTML',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/html5-40-1175193.png',
         },
         {
-          id: 9,
+          id: 10,
           name: 'CSS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/css3-11-1175239.png',
         },
         {
-          id: 10,
+          id: 11,
           name: 'PHP',
           imageUrl: 'https://www.php.net/images/logos/new-php-logo.svg',
-        },
-        {
-          id: 11,
-          name: 'TensorFlow',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg',
         },
 
       ],
