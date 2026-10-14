@@ -115,7 +115,7 @@ export default {
           id: 1,
           name: 'MyBaliApp',
           imageUrl: 'MyBaliApp',
-          status: `MyBaliApp is a personal expense tracker built for Challenge 0 at Apple Developer Academy @ BINUS – Bali, answering the challenge to build a personal Bali Academy app that supports new life in Bali. The app helps track daily spending by letting users record income and expenses with a date, amount, category, account, and note, and view monthly income, expense, and total summaries.`,
+          status: `MyBaliApp is a personal expense tracker built as a solo project for Challenge 0 at Apple Developer Academy @ BINUS – Bali, answering the challenge to build a personal Bali Academy app that supports new life in Bali. The app helps track daily spending by letting users record income and expenses with a date, amount, category, account, and note, and view monthly income, expense, and total summaries.`,
           tech: 'Swift, SwiftUI, UIKit, Combine',
           github: 'https://github.com/StevanusFelixiano/MyBaliApp',
           demo: 'null'
