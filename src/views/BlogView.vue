@@ -48,6 +48,32 @@ export default {
       articles: [
         {
           id: 1,
+          slug: 'Junior iOS Developer · Academy',
+          date: 'Mar 2026 - Present',
+          title: 'Apple Developer Academy @ BINUS - Bali',
+          desc: [
+            'Selected as one of 220 participants from more than 13,000 applicants to join Apple Developer Academy @ BINUS – Bali, Cohort 2026.',
+            'Joined one of only two International Apple Developer Academies in the world, collaborating with a globally diverse cohort of learners from various backgrounds.',
+            'Developed innovative app-based solutions within the Apple ecosystem through hands-on learning, design thinking, coding, and cross-functional team collaboration.'
+          ],
+          image: '/img/apple-developer-academy.svg',
+          certificateLink: 'https://drive.google.com/drive/folders/1trbN8zbyKeC3rMbRWC1K_z4UgQYp483w?usp=sharing'
+        },
+        {
+          id: 2,
+          slug: 'AI Intern · Internship',
+          date: 'Sep 2025 - Dec 2025',
+          title: 'PT Salam Pacific Indonesia Lines',
+          desc: [
+            'Developed an internal chatbot using n8n workflows to help operational teams navigate accident-related cases and policy references based on company knowledge sources.',
+            'Implemented an adaptive LiDAR scanning system on Raspberry Pi, utilizing vehicle speed to regulate sensor rotation and generate panoramic visual outputs for container damage assessment.',
+            'Contributed to end-to-end AI and IoT solution delivery, from system planning to deployment and continuous monitoring, improving safety control, process transparency, and operational automation in logistics and port activities.'
+          ],
+          image: '/img/spil.png',
+          certificateLink: 'https://drive.google.com/drive/folders/1XgxrplHcT1Wpvpb5CGmSXDGTByYD1Hnx?usp=sharing'
+        },
+        {
+          id: 3,
           slug: 'Machine Learning Cohort · Apprenticeship',
           date: 'Sep 2024 - Dec 2024',
           title: 'Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka',
@@ -62,7 +88,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1rVAjpCvadPMe1cuqh5AiKJ2Cz5rNp74s/view?usp=sharing'
         },
         {
-          id: 2,
+          id: 4,
           slug: 'Staff Of Cadre Department · Organization',
           date: 'Jan 2023 - Dec 2023',
           title: 'Executive Board of Himatif FMIPA Unpad',
@@ -76,7 +102,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1EGxDhiIWPSTsfIP8Mk2QfhT-SiGddz3H/view?usp=sharing'
         },
         {
-          id: 3,
+          id: 5,
           slug: 'Staff Of IT Competition Division · Volunteering',
           date: 'Jul 2024 - Oct 2024',
           title: 'Informatics Festival 2024 - Himatif FMIPA Unpad',
@@ -90,7 +116,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1nRjhHJ4CJEiKnfiteIyJzqRiN9CU1eWV/view?usp=sharing'
         },
         {
-          id: 4,
+          id: 6,
           slug: 'Staff Of Accommodation Division · Volunteering',
           date: 'Apr 2024 - Jun 2024',
           title: 'Informatics Sport & Art Game Tournaments 2024 - Himatif FMIPA Unpad',
@@ -104,7 +130,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1FIPxTwtbcgPd2uh4YpE-xDKEcHY3GjHA/view?usp=sharing'
         },
         {
-          id: 5,
+          id: 7,
           slug: 'Staff Of Public Relation Division · Volunteering',
           date: 'Oct 2023 - Nov 2023',
           title: 'Informatics Fun Day 2023 - Himatif FMIPA Unpad',
@@ -118,7 +144,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1XJZEkg9GkS9RHeY733wGTDg27hT4YgZT/view?usp=sharing'
         },
         {
-          id: 6,
+          id: 8,
           slug: 'Staff Of Public Relation Division · Volunteering',
           date: 'Aug 2023 - Oct 2023',
           title: 'Informatics Festival 2023 - Himatif FMIPA Unpad',
@@ -132,7 +158,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/110NoVYy22Nq2dyNxOwsb7_A7ZR0AKcaw/view?usp=sharing'
         },
         {
-          id: 7,
+          id: 9,
           slug: 'Staff Of Logistics Division · Volunteering',
           date: 'Aug 2023 - Oct 2023',
           title: 'Character Building Season 2023 - Himatif FMIPA Unpad',
@@ -146,7 +172,7 @@ export default {
           certificateLink: 'https://drive.google.com/file/d/1MILRGypGQNWZxsS4zCTts8zAA_OgUruD/view?usp=sharing'
         },
         {
-          id: 8,
+          id: 10,
           slug: 'Staff Of Logistics Division · Volunteering',
           date: 'Oct 2022 - Nov 2022',
           title: 'Informatics Fun Day 2022 - Himatif FMIPA Unpad',
