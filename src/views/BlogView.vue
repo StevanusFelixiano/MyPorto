@@ -54,8 +54,8 @@ export default {
           desc: [
             'Selected as one of 220 participants from more than 13,000 applicants to join Apple Developer Academy @ BINUS – Bali, Cohort 2026.',
             'Joined one of only two International Apple Developer Academies in the world, collaborating with a globally diverse cohort of learners from various backgrounds.',
-            'Developed innovative app-based solutions within the Apple ecosystem through hands-on learning, design thinking, coding, and cross-functional team collaboration.',
-            'Built native iOS apps with Swift, SwiftUI, and Xcode through team-based Challenge Based Learning.'
+            'Developed app-based solutions within the Apple ecosystem using Swift, SwiftUI, and Xcode through Challenge Based Learning, design thinking, and cross-functional team collaboration.',
+            'Served as the main iOS developer in team projects, integrating Apple frameworks, shipping several TestFlight builds and publishing one app to the App Store.'
           ],
           image: '/img/apple-developer-academy.jpg',
           certificateLink: 'https://drive.google.com/drive/folders/1trbN8zbyKeC3rMbRWC1K_z4UgQYp483w?usp=sharing'
