@@ -33,7 +33,7 @@
             </li>
             <li>
               <router-link to="/portfolio">
-                <span @click="setLoading" class="fadein-bot fadein-2 text-gray-500 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-200 md:p-0">Projects &amp; Certificates</span>
+                <span @click="setLoading" class="fadein-bot fadein-2 text-gray-500 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-200 md:p-0">Portfolio</span>
               </router-link>
             </li>
             <li>
@@ -57,7 +57,7 @@
           <span @click="setLoading" class="text-gray-300 hover:text-white">About</span>
         </router-link>
         <router-link to="/portfolio">
-          <span @click="setLoading" class="text-gray-300 hover:text-white">Projects &amp; Certificates</span>
+          <span @click="setLoading" class="text-gray-300 hover:text-white">Portfolio</span>
         </router-link>
         <router-link to="/blog">
           <span @click="setLoading" class="text-gray-300 hover:text-white">Experiences</span>
