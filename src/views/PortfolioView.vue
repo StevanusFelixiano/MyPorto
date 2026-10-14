@@ -115,7 +115,7 @@ export default {
           id: 1,
           name: 'Academy Stocks',
           imageUrl: 'AcademyStocks',
-          status: `Academy Stocks is a recreation of Apple's Stocks app, built by a team of two for Challenge 2 (Recreate and Remix) at Apple Developer Academy @ BINUS – Bali. Each learner picked their top three from a set of native iOS apps, and I was paired with a friend who also chose Stocks. We recreated the Watchlist and Business News experience in SwiftUI, then remixed it by splitting the single-screen app into a tab bar with Watchlist, Discovery, News, and Search, and adding a Discovery tab with an IHSG, NASDAQ, and S&P 500 chart switcher and market mover lists. Market charts use live data from Yahoo Finance.`,
+          status: `Academy Stocks is a recreation of Apple's Stocks app, built by a team of two for Challenge 2 (Recreate and Remix) at Apple Developer Academy @ BINUS – Bali. The goal was to rebuild a native iOS app faithfully, then reimagine it with our own ideas. Each learner picked their top three from a set of native iOS apps, and I was paired with a friend who also chose Stocks. We recreated the Watchlist and Business News experience in SwiftUI, then remixed it by splitting the single-screen app into a tab bar with Watchlist, Discovery, News, and Search, and adding a Discovery tab with an IHSG, NASDAQ, and S&P 500 chart switcher and market mover lists. Market charts use live data from Yahoo Finance.`,
           tech: 'Swift, SwiftUI, Swift Charts, Combine, Yahoo Finance API',
           github: 'https://github.com/StevanusFelixiano/Recreate-Remake',
           demo: 'null'
