@@ -18,7 +18,7 @@ NSGradient(starting: NSColor(calibratedRed: 0.16, green: 0.16, blue: 0.18, alpha
 
 // Phones, right-aligned, overlapping slightly.
 let noFrame = ProcessInfo.processInfo.environment["NO_FRAME"] == "1"
-let phoneH: CGFloat = 760, bezel: CGFloat = 12, gap: CGFloat = 40
+let phoneH: CGFloat = shots.count >= 3 ? 640 : 760, bezel: CGFloat = 12, gap: CGFloat = 40
 let phoneW = phoneH * shots[0].size.width / shots[0].size.height
 var x = W - 80 - CGFloat(shots.count) * phoneW - CGFloat(shots.count - 1) * gap
 for (i, shot) in shots.enumerated() {
@@ -42,8 +42,11 @@ for (i, shot) in shots.enumerated() {
 // Text block on the left.
 let textW = x - phoneW * CGFloat(shots.count) - gap * CGFloat(shots.count) - 80 - 60
 let para = NSMutableParagraphStyle(); para.lineBreakMode = .byWordWrapping
+// Shrink the title until it fits on one line.
+var titleSize: CGFloat = 76
+while titleSize > 40 && (title as NSString).size(withAttributes: [.font: NSFont.systemFont(ofSize: titleSize, weight: .bold)]).width > textW { titleSize -= 2 }
 (title as NSString).draw(in: NSRect(x: 80, y: H / 2 - 10, width: textW, height: 200), withAttributes: [
-  .font: NSFont.systemFont(ofSize: 76, weight: .bold), .foregroundColor: NSColor.white, .paragraphStyle: para])
+  .font: NSFont.systemFont(ofSize: titleSize, weight: .bold), .foregroundColor: NSColor.white, .paragraphStyle: para])
 (subtitle as NSString).draw(in: NSRect(x: 80, y: H / 2 - 170, width: textW, height: 150), withAttributes: [
   .font: NSFont.systemFont(ofSize: 34, weight: .medium), .foregroundColor: NSColor(calibratedWhite: 0.7, alpha: 1), .paragraphStyle: para])
 
