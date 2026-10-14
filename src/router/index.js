@@ -18,14 +18,15 @@ const routes = [
     path: '/portfolio',
     name: 'portfolio',
     component: () => import('../views/PortfolioView.vue'),
-    meta: { title: 'Projects' }
-  },
-  {
-    path: '/blog',
-    name: 'blog',
-    component: () => import('../views/BlogView.vue'),
     meta: { title: 'Portfolio' }
   },
+  {
+    path: '/experience',
+    name: 'experience',
+    component: () => import('../views/BlogView.vue'),
+    meta: { title: 'Experiences' }
+  },
+  { path: '/blog', redirect: '/experience' },
   // {
   //   path: '/read/:slug/:id',
   //   name: 'articleDetail',

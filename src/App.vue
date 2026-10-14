@@ -37,7 +37,7 @@
               </router-link>
             </li>
             <li>
-              <router-link to="/blog">
+              <router-link to="/experience">
                 <span @click="setLoading" class="fadein-bot fadein-3 text-gray-500 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-200 md:p-0 blog">Experiences</span>
               </router-link>
             </li>
@@ -59,7 +59,7 @@
         <router-link to="/portfolio">
           <span @click="setLoading" class="text-gray-300 hover:text-white">Portfolio</span>
         </router-link>
-        <router-link to="/blog">
+        <router-link to="/experience">
           <span @click="setLoading" class="text-gray-300 hover:text-white">Experiences</span>
         </router-link>
       </nav>
