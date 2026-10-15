@@ -47,6 +47,14 @@
                           </path>
                         </svg>
                       </a>
+                      <a v-if="item.drive" :href="item.drive" target="_blank" rel="noreferrer"
+                        title="View project files" class="transition-all hover:text-accent">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                          stroke-linecap="round" stroke-linejoin="round" height="18" width="18"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                      </a>
                       <a v-if="item.demo !== 'null'" :href="item.demo" target="_blank" rel="noreferrer"
                         title="View finished project" class="transition-all hover:text-accent">
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
@@ -118,7 +126,8 @@ export default {
           status: `Play Sight is a badminton session app made for the Awan Minton community in Bali, built by team GoodMinton, five of us (three coders and two designers), for Challenge 5 (Community) at Apple Developer Academy @ BINUS – Bali, and now available on the App Store. The challenge was about working hand in hand with a local Bali community and using technology to support them. A host creates a session with courts, date, time, and place, players join with an invite code, matches rotate across courts live, and at the end the app splits the court cost by matches played and collects payment proofs. As one of the coders, I built Sign in with Apple, the onboarding and profile setup, the animated launch screen, the settings screens, and the session calendar and time picker, built the app's notifications, and uploaded builds to TestFlight.`,
           tech: 'Swift, SwiftUI, Supabase, Sign in with Apple, Live Activities',
           github: 'null',
-          demo: 'https://apps.apple.com/us/app/play-sight-badminton/id6799792703'
+          demo: 'https://apps.apple.com/us/app/play-sight-badminton/id6799792703',
+          drive: 'https://drive.google.com/drive/folders/1cBP2UCC5Gzde9A4tHialw-1qYSZlZE6M?usp=sharing'
         },
         {
           id: 2,
