@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* Entrance animations slide content in from off-screen; keep that from widening the page. */
+html,
+body {
+  overflow-x: clip;
+}
