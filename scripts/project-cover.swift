@@ -25,7 +25,13 @@ var x = W - 80 - CGFloat(shots.count) * phoneW - CGFloat(shots.count - 1) * gap
 for (i, shot) in shots.enumerated() {
   let y = (H - phoneH) / 2 + (i % 2 == 0 ? 20 : -20)
   let frame = NSRect(x: x, y: y, width: phoneW, height: phoneH)
-  if noFrame { shot.draw(in: frame); x += phoneW + gap; continue }
+  if noFrame {
+    NSGraphicsContext.saveGraphicsState()
+    NSBezierPath(roundedRect: frame, xRadius: 28, yRadius: 28).addClip()
+    shot.draw(in: frame)
+    NSGraphicsContext.restoreGraphicsState()
+    x += phoneW + gap; continue
+  }
   let shadow = NSShadow(); shadow.shadowBlurRadius = 40; shadow.shadowOffset = NSSize(width: 0, height: -12)
   shadow.shadowColor = NSColor.black.withAlphaComponent(0.6)
   NSGraphicsContext.saveGraphicsState(); shadow.set()
