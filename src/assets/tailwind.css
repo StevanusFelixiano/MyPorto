@@ -4,8 +4,10 @@
 
 @tailwind utilities;
 
-/* Entrance animations slide content in from off-screen; keep that from widening the page. */
+/* Entrance animations slide content in from off-screen; keep that from widening the page,
+   and stop the sideways elastic bounce on trackpads. */
 html,
 body {
   overflow-x: clip;
+  overscroll-behavior-x: none;
 }

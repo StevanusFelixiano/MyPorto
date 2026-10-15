@@ -1,6 +1,7 @@
 <template>
-  <main class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
-    <div class="space-y-2 text-center md:text-left px-10">
+  <div class="px-5">
+  <main class="container mx-auto mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-between min-h-[65vh] md:min-h-[80vh]">
+    <div class="space-y-2 text-center md:text-left px-10 md:px-0">
       <p class="text-blue-200 text-sm md:text-base">Hello World, I'm</p>
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white fadein-up">Stevanus Felixiano</h1>
       <p class="text-white text-lg sm:text-xl md:text-2xl font-semibold fadein-up">My Interest:</p>
@@ -21,10 +22,11 @@
         <span class="button-text">Download Resume</span>
       </button>
     </div>
-    <div class="flex justify-center md:justify-start fadein-right">
-      <img alt="avatar" fetchpriority="high" width="200" height="200" decoding="async" data-nimg="1" class="w-8/12 md:h-auto rounded-full border-4 border-blue-200 pict" src="/img/stev.jpg">
+    <div class="flex justify-center md:justify-end md:w-1/2 fadein-right">
+      <img alt="avatar" fetchpriority="high" width="200" height="200" decoding="async" data-nimg="1" class="w-8/12 md:w-10/12 md:max-w-[420px] md:h-auto rounded-full border-4 border-blue-200 pict" src="/img/stev.jpg">
     </div>
   </main>
+  </div>
 </template>
 
 <script>
