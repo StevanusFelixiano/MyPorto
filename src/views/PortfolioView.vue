@@ -113,6 +113,15 @@ export default {
       items: [
         {
           id: 1,
+          name: 'Thump',
+          imageUrl: 'Thump',
+          status: `Thump is a tension-relief system that pairs an iPhone and Apple Watch app with a custom ESP32 smart pillow, built by a team of five (three coders and two designers) for Challenge 4 (Tech & Framework Challenge) at Apple Developer Academy @ BINUS – Bali, and shipped to TestFlight. The challenge was about exploring Apple technologies and building an app where the chosen frameworks truly belong together, so our team picked IoT, with Core Bluetooth as the main framework and HealthKit alongside it. While you study, code, or game, the Apple Watch tracks your heart rate and uses Core Motion to check that you are sitting still. When a potential tension episode is detected, the iPhone lights up the pillow over Bluetooth, you punch it to let off steam, and the app logs your punches and recovery time. As one of the coders, I worked on both the iPhone and Apple Watch apps.`,
+          tech: 'Swift, SwiftUI, Core Bluetooth, HealthKit, Core Motion, watchOS, ESP32',
+          github: 'https://github.com/StevanusFelixiano/iStack',
+          demo: 'null'
+        },
+        {
+          id: 2,
           name: 'MoM',
           imageUrl: 'MoM',
           status: `MoM is a gentle workout app for mothers with toddlers, built by a team of six (four coders and two designers) for Challenge 3 (From Pieces to Product) at Apple Developer Academy @ BINUS – Bali, and shipped to TestFlight. Busy mothers rarely have the time or a gym nearby to stay active, so MoM starts with a quick energy check-in and recommends a guided workout that fits how they feel that day, followed by a calming breathing cooldown. The app also supports dark mode and larger text. As one of the coders, I worked across the app with the team, splitting tasks and helping each other.`,
@@ -121,7 +130,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 2,
+          id: 3,
           name: 'Academy Stocks',
           imageUrl: 'AcademyStocks',
           status: `Academy Stocks is a recreation of Apple's Stocks app, built by a team of two for Challenge 2 (Recreate and Remix) at Apple Developer Academy @ BINUS – Bali. The goal was to rebuild a native iOS app faithfully, then reimagine it with our own ideas. Each learner picked their top three from a set of native iOS apps, and I was paired with a friend who also chose Stocks. We recreated the Watchlist and Business News experience in SwiftUI, then remixed it by splitting the single-screen app into a tab bar with Watchlist, Discovery, News, and Search, and adding a Discovery tab with an IHSG, NASDAQ, and S&P 500 chart switcher and market mover lists. Market charts use live data from Yahoo Finance.`,
@@ -130,7 +139,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 3,
+          id: 4,
           name: 'Coffi',
           imageUrl: 'Coffi',
           status: `Coffi is a high-fidelity iOS app prototype designed by a team of six for Challenge 1 (Help an Academy Friend) at Apple Developer Academy @ BINUS – Bali. The challenge explored how technology can make our friends' lives better. We chose to help one of our Academy friends, who was interested in learning about coffee and dreams of opening a coffee shop one day, but didn't have enough resources to learn. Coffi was designed to help them learn to manually brew coffee by taking part in the process through a simulation game. Following Apple's principle of designing with empathy, we shaped the experience around our friend's needs rather than our own preferences. As a design-only challenge, we took the idea from concept to a hi-fi prototype in Sketch without writing code. In the simulation, users set a target taste between sour and bitter and between weak and strong, follow guided steps for bean weight, grind size, and brewing, then get a summary comparing the aimed and actual outcome with an accuracy score, a recommendation, and a brew history.`,
@@ -139,7 +148,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 4,
+          id: 5,
           name: 'Bali Budget Buddy',
           imageUrl: 'MyBaliApp',
           status: `Bali Budget Buddy is a personal expense tracker built as a solo project for Challenge 0 (My Bali App) at Apple Developer Academy @ BINUS – Bali. The challenge explored how technology can help us navigate new experiences, by building a personal app that supports, organizes, tracks, or navigates something in our new life in Bali or the Academy. The problem I chose was tracking expenses, so the app lets users record income and expenses with a date, amount, category, account, and note, and view monthly income, expense, and total summaries.`,
@@ -148,7 +157,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 5,
+          id: 6,
           name: 'Isle Of Balance',
           imageUrl: 'Isle Of Balance',
           status: `Isle of Balance is an educational Virtual Reality (VR) game aimed at teaching ecological balance and environmental awareness, particularly for children and nature enthusiasts. Developed using Unity and C#, the game leverages immersive interactions through the XR Interaction Toolkit, enabling players to engage with responsive environments and complete nature-based challenges. The project supports SDG 15 – Life on Land, by promoting biodiversity education and sustainability values through interactive gameplay.`,
@@ -157,7 +166,7 @@ export default {
           demo: 'https://drive.google.com/drive/folders/15YOgNm3FMxE_rCxGKWo3qlrtKeSfUZBb?usp=sharing'
         },
         {
-          id: 6,
+          id: 7,
           name: 'Major Finder',
           imageUrl: 'Major-Finder',
           status: `MajorFinder is a smart web application designed to help Informatics students determine their most suitable academic major and minor based on their personal interests, academic performance, and career goals. Built using Streamlit, the system applies Fuzzy Logic and Analytical Hierarchy Process (AHP) to deliver accurate, data-driven recommendations. The application features an intuitive UI for student input, a Fuzzy & AHP-based scoring system, and provides visualized results along with downloadable reports.`,
@@ -166,7 +175,7 @@ export default {
           demo: 'https://majorfinder.streamlit.app/'
         },
         {
-          id: 7,
+          id: 8,
           name: 'NoteBoost',
           imageUrl: 'Noteboost',
           status: 'NoteBoost is an online platform designed to help students take and improve their notes through a smart feature that adapts content based on their grade level and subject matter. Focused on supporting learners from elementary to high school, NoteBoost aims to enhance study effectiveness and broaden academic insight. This project is part of our effort to support the United Nations’ Sustainable Development Goal 4: ensuring inclusive and equitable quality education for all. In this project, I worked as a Backend Developer, responsible for building APIs, implementing authentication, and integrating AI capabilities using the Gemini API. I also handled the integration between the frontend and backend, ensuring smooth communication and functionality across the entire application.',
@@ -175,7 +184,7 @@ export default {
           demo: 'https://www.noteboost.site/'
         },
         {
-          id: 8,
+          id: 9,
           name: 'FishGuard',
           imageUrl: 'FishGuard',
           status: 'FishGuard is a Capstone Project of the Bangkit Academy 2024 Batch 2, aimed at supporting marine biodiversity conservation through the use of machine learning and computer vision. The project enables users to identify protected fish species via a mobile app by uploading fish photos for accurate classification. As a Machine Learning Engineer, I was responsible for developing detection and classification models, building RESTful APIs for data integration, and collaborating with the app development team to ensure seamless user experience and model deployment.',
@@ -184,7 +193,7 @@ export default {
           demo: 'https://drive.google.com/drive/folders/1v361Pu2Y7y_2jpWg-_COtmBCovBKV7Qh?usp=drive_link'
         },
         {
-          id: 9,
+          id: 10,
           name: 'Trash Bin Robot with Computer Vision',
           imageUrl: 'Trash Bin Robot',
           status: 'As the final project for the Robotics Practicum course, My team and I developed a smart trash bin robot powered by Computer Vision using Mediapipe v5. The robot recognizes hand gestures through pose estimation and responds when a user raises their hand by autonomously approaching them. It follows the user’s movements, opens the lid automatically for waste disposal, and closes it afterward—fully contactless and intuitive.',
@@ -193,7 +202,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 10,
+          id: 11,
           name: 'Clustering of Aerial Images',
           imageUrl: 'Cluster',
           status: 'This project utilizes K-Means clustering to segment aerial imagery captured by drones into visually distinct land cover types. Implemented using Streamlit for interactivity, the application allows users to upload images and view the segmentation results in real time. Each cluster represents a unique land characteristic on extracted color and texture features.',
@@ -202,7 +211,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 11,
+          id: 12,
           name: 'Fruit & Vegetable Classification With CNN',
           imageUrl: 'Fruit Detection',
           status: 'This project aims to classify images of fruits and vegetables using a Convolutional Neural Network (CNN) model. First, the image data is pre-processed through resizing, normalization, and augmentation to improve model performance. The CNN model is then trained on the prepared dataset consisting of various fruit and vegetable categories. After training, the model is evaluated using validation and testing datasets, showing good accuracy in correctly classifying different types of fruits and vegetables.',
@@ -211,7 +220,7 @@ export default {
           demo: 'null'
         },
         {
-          id: 12,
+          id: 13,
           name: 'The Weeknd Website',
           imageUrl: 'TheWeeknd',
           status: 'This project focused on developing a dynamic and interactive website dedicated to The Weeknd, leveraging CodeIgniter 4 as the framework. The website highlights The Weeknd’s music, albums, tour schedules, and latest news, featuring a user-friendly design that enhances visitor engagement. A modern, responsive layout was crafted using HTML and CSS to ensure seamless performance across different devices and screen sizes. XAMPP was utilized as the local development environment, while PHP powered the server-side functionalities, enabling smooth integration with MySQL databases for efficient storage and management of user data, content, and multimedia resources.',

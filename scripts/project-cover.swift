@@ -1,6 +1,7 @@
 // Builds a 1600x900 dark project cover: title + subtitle on the left, iPhone screenshots in frames on the right.
 // Usage: [NO_FRAME=1] swift scripts/project-cover.swift "<title>" "<subtitle>" out.png shot1.png [shot2.png ...]
 // NO_FRAME=1 for screenshots that already include a device frame (e.g. Sketch mockups).
+// ICON=path/to/icon.png to draw the app icon above the title.
 import AppKit
 
 let args = CommandLine.arguments
@@ -37,6 +38,14 @@ for (i, shot) in shots.enumerated() {
   shot.draw(in: screen)
   NSGraphicsContext.restoreGraphicsState()
   x += phoneW + gap
+}
+
+if let iconPath = ProcessInfo.processInfo.environment["ICON"], let icon = NSImage(contentsOfFile: iconPath) {
+  let r = NSRect(x: 80, y: H / 2 + 220, width: 140, height: 140)
+  NSGraphicsContext.saveGraphicsState()
+  NSBezierPath(roundedRect: r, xRadius: 32, yRadius: 32).addClip()
+  icon.draw(in: r)
+  NSGraphicsContext.restoreGraphicsState()
 }
 
 // Text block on the left.
